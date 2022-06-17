@@ -234,9 +234,10 @@
 }
 
 .button-2 {
-  background-color: #7a7a7a;
+  background-color: hsla(208, 0%, 48%, 0);
   font-family: 'Vast Shadow', sans-serif;
-  font-size: 100%;
+  color: #fff;
+  font-size: 80%;
 }
 
 .grid-form {
@@ -405,6 +406,26 @@
 .text-block-3 {
   font-family: 'M PLUS 1p', sans-serif;
   font-size: 1em;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 35px;
+  padding-left: 35px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-image: url('../images/beercheers.gif');
+  background-position: 50% 0%;
+  background-size: auto;
 }
 
 @media screen and (max-width: 991px) {
